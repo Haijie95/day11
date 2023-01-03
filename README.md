@@ -47,3 +47,12 @@ click the project in the middle area
 
 10. Go to settings and generate domain
 
+---Extra Stuff---
+1. Spring boot port config / Arguments with mvn
+```
+mvn spring-boot:run -Dspring-boot.run.arguments=--port=8084
+```
+2. Setting the port number
+```
+set APP_PORT=8090
+```
